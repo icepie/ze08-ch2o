@@ -1,0 +1,18 @@
+{
+  "name": "ze08-ch2o",
+  "keywords": "ze08-ch2o, sensor, gas, ch2o",
+  "description": "A arduino library for communication with ZE08-CH2O module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/icepie/ze08-ch2o/"
+  },
+  "authors": [
+    {
+      "name": "icepie",
+      "maintainer": true
+    }
+  ],
+  "version": "0.1.0",
+  "frameworks": "arduino",
+  "platforms": "*"
+}
