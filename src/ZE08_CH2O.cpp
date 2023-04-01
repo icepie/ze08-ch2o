@@ -125,7 +125,7 @@ void ZE08_CH2O::beginQAMode()
 {
   SoftwareSerial ss(RX_pin, TX_pin);
   ss.begin(ZE08_CH2O_SW_UART_RATE);
-  uint8_t cmd[ZE08_CH2O_CMD_LEN] = ZE08_CH2O_CMD_ACTIVE_MODE; // set mode
+  uint8_t cmd[ZE08_CH2O_CMD_LEN] = ZE08_CH2O_CMD_QA_MODE; // set mode
   uart_write(&ss, cmd, ZE08_CH2O_CMD_LEN);
   ss.end();
 }
